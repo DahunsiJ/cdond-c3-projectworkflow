@@ -1,6 +1,6 @@
 export: TYPEORM_CONNECTION=postgres
 export: TYPEORM_ENTITIES=./src/moudles/domain/**/*.entity.ts 
-export: TYPEORM_HOST=database-1.ckvwivjr6cfd.us-east-1.rds.amazonaws.com
+export: TYPEORM_HOST=database-1.ce0rnyybe1an.us-east-1.rds.amazonaws.com
 export: TYPEORM_PORT=5432
 export: TYPEORM_USERNAME=postgres
 export: TYPEORM_PASSWORD=postgres

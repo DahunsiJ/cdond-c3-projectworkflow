@@ -194,7 +194,7 @@ jobs:
             - project/.circleci/ansible/inventory.txt
       # Here's where you will add some code to rollback on failure
       - destroy-environment
-      
+
   configure-infrastructure:
     docker:
       - image: python:3.10-alpine3.16
@@ -204,7 +204,7 @@ jobs:
           at: ~/
       - add_ssh_keys:
           fingerprints:
-            - "70:e9:cd:8c:df:6e:4e:6f:d3:83:06:0a:0c:90:7e:9f"
+            - "c7:de:9e:c2:f1:fa:ae:3b:80:bc:bf:13:69:8d:98:b4"
       # - install_ansible
       - run:
           name: Install dependencies
@@ -267,7 +267,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "70:e9:cd:8c:df:6e:4e:6f:d3:83:06:0a:0c:90:7e:9f"
+            - "c7:de:9e:c2:f1:fa:ae:3b:80:bc:bf:13:69:8d:98:b4"
       - attach_workspace:
           at: ~/
       - install_nodejs
@@ -306,7 +306,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "70:e9:cd:8c:df:6e:4e:6f:d3:83:06:0a:0c:90:7e:9f"
+            - "c7:de:9e:c2:f1:fa:ae:3b:80:bc:bf:13:69:8d:98:b4"
       - attach_workspace:
           at: ~/
       - install_nodejs
