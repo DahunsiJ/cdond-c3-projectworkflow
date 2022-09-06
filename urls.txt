@@ -1,2 +1,3 @@
 [URL01]   https://github.com/DahunsiJ/cdond-c3-projectworkflow    
-[URL02    ]https://udapeople-b91871e.s3.amazonaws.com/index.html#/employees/new
+[URL02]   http://udapeople-489456e.s3.amazonaws.com/index.html#/employees
+[URL03]   http://d3n4v1jqouxah1.cloudfront.net/#/employees
